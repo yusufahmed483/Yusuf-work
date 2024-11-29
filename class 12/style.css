@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: #FAE3B6;
+    padding: 30px 0;
+}
+ul{
+    list-style: none;
+  
+}
+.container{
+    width: 1320px;
+    margin: 0 auto
+}
+
+.box{
+    display:flex;
+    align-items: center;
+    
+
+}
+
+.logo{
+    width: 25%;
+ 
+}
+.menubar{
+    width: 50%;
+ 
+
+}
+.button{
+    width: 25%;
+   
+}
+nav ul{
+    display: flex;
+    column-gap: 40px;
+}
+nav button a{
+   text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+nav .button a {
+   background:  #FDBB57;
+   padding: 10px 30px;
+   border-radius: 10px;
+   color: black;
+   font-style: 24px;
+   display: inline-block;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   border: 1px solid transparent;
+   box-shadow: 0px 4px 4px #00000040;
+
+}
+.li{
+       font-size: 24px;
+       color: black;
+       font-weight: 600;
+       font-family: "Poppins", sans-serif;
+}
+nav .button a:hover{
+    background-color: #FFD687;
+    border-color: #F2D09B;
+}
+/* =========
+banner part start
+======== */
+.banner{
+    background-color:#FAE3B6;
+    ;
+}
+.banner .box{
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+
+}
+.box .left{
+    width: 50%;
+}
+.box .right{
+    width: 50%;
+}
+.banner .left h1{
+    font-size: 64px;
+    font font-family:   "Poppins", sans-serif;
+    font-weight: 600;
+    width: 441px;
+    line-height: 96px;        
+}
+.banner .left p{
+    font-size: 22px;
+    font font-family:   "Poppins", sans-serif;
+    font-weight: 400;
+    width: 432px;
+    line-height: 33px;
+    padding-bottom: 38px;
+    padding-top: 78px;
+}
+.banner .left a{
+   background-color: black;
+   padding: 25px 91px;
+   color: white;
+   border-radius: 10px;
+   font-size: 24px;
+   font-weight: 600;
+   font-family: "Poppins", sans-serif;
+   line-height: 35px;
+   border: 1px solid transparent;
+}
+.banner .left a:hover{
+    background-color: transparent;
+    border-color: black;
+}
+
+.collection h2{
+    font-size: 64px;
+    font-family:  "Frank Ruhl Libre", serif;
+    font-weight: 700;
+    line-height: 82.62px;
+    color: black;
+    text-align: center;
+}
+
+.collection .cart{
+    width: 350px;
+    height: 400px;
+    background-color: red;
+    position: relative;
+}
+.collection .cart img{
+    width: 100%;
+}
+
+.collection .cart .overley{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.4)
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 300px;
+    padding-left:20px;
+    box-sizing:border-box;
+    
+}
+.collection .cart .overley a{
+   font-size: 20px;
+   font-weight: 600;
+   color: black;
+   font-family: "Poppins", sans-serif;
+   background: white;
+   border-radius: 20px;
+   padding: 9px 108px;
+}
